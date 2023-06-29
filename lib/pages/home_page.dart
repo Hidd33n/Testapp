@@ -28,10 +28,6 @@ class _HomePageState extends State<HomePage> {
             trailing: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text(
-                  '${model.quantity}', // Mostrar la cantidad seleccionada
-                  style: const TextStyle(fontSize: 16),
-                ),
                 IconButton(
                   icon: const Icon(Icons.add),
                   onPressed: () {
@@ -39,6 +35,10 @@ class _HomePageState extends State<HomePage> {
                       model.quantity++; // Incrementar la cantidad
                     });
                   },
+                ),
+                Text(
+                  '${model.quantity}', // Mostrar la cantidad seleccionada
+                  style: const TextStyle(fontSize: 16),
                 ),
                 IconButton(
                   icon: const Icon(Icons.remove),

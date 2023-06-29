@@ -17,19 +17,19 @@ class Models {
 //Crear lista de los modelos con nombre y descripcion
 List<Models> modelsList = [
   Models(
-    name: 'puta',
+    name: 'Chaqueta Leontina',
     description: 'Descripción del uniforme completo 1',
   ),
   Models(
-    name: 'Uniforme Completo 2',
+    name: 'Chaqueta Grey',
     description: 'Descripción del uniforme completo 2',
   ),
   Models(
-    name: 'Chaqueta',
+    name: 'Ambo completo',
     description: 'Descripción de la chaqueta',
   ),
   Models(
-    name: 'Pantalón',
+    name: 'Pantalón Grey',
     description: 'Descripción del pantalón',
   ),
 ];
